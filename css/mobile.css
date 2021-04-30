@@ -73,12 +73,70 @@
 
 /* Exhibition Spaces */
 
+.exhibition {
+  margin-bottom: 30px;
+}
+
 .exhibition .box-1,
 .exhibition .box-2,
 .exhibition .box-3 {
   width: 320px;
   height: 240px;
   margin-top: 47px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.color-overlay {
+  width: 100%;
+  height: 100%;
+  background: #000000;
+  opacity: 0.6;
+  position: absolute;
+  border-radius: 25px;
+  z-index: 1;
+}
+
+.evolution {
+  background: url(../images/mammoth-1257288_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.medicine {
+  background: url(../images/people-219985_1280.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.biology {
+  background: url(../images/heart-2607178_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+.ecology {
+  background: url(../images/environmental-protection-326923_1920.jpg) no-repeat
+    center center;
+  background-size: cover;
+}
+
+.cosmology {
+  background: url(../images/space-11099_1280.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.robotics {
+  background: url(../images/technology-4256272_1920.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+.text-exhibition a {
+  font-size: 35px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  position: relative;
+  z-index: 2;
 }
 
 /* Events */
@@ -88,31 +146,53 @@
 }
 
 .events .box-1,
-.events .box-2,
 .events .box-3 {
   width: 100%;
-  height: 480px;
-  max-width: 1100px;
+  height: 100%;
+  max-width: 570px;
   margin-top: 33px;
+  border-radius: 0 25px 25px 0;
+}
+
+.events .box-2 {
+  width: 100%;
+  height: 100%;
+  max-width: 570px;
+  margin-top: 33px;
+  border-radius: 25px 0 0 0;
+  margin-left: auto;
 }
 
 .events h3 {
   margin-top: 10px;
   margin-left: 30px;
   margin-bottom: 15px;
-  line-height: 38px;
-}
-.events p {
-  margin-left: 30px;
-  margin-right: 15px;
 }
 
 .events .box-1 {
-  background-color: #ef476f;
+  background-color: #0b0607;
 }
 .events .box-2 {
   background-color: #06d6a0;
 }
 .events .box-3 {
-  background-color: #ffd166;
+  background-color: #1e34ff;
+}
+
+.events .date-box {
+  width: 184px;
+  height: 97px;
+  background-color: #fff;
+  border-radius: 0 25px 0 0;
+  margin-top: 91px;
+  display: flex;
+  justify-items: center;
+  justify-content: center;
+}
+
+.events .events-date {
+  color: #0b0607;
+  font-size: 25px;
+  margin-top: 31px;
+  font-family: "Montserrat", sans-serif;
 }
