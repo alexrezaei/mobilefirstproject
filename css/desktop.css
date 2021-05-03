@@ -1,0 +1,14 @@
+@media only screen and (min-width: 1025px) {
+  .exhibition .column-wrap {
+    flex-direction: column;
+  }
+  .exhibition .column {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .exhibition .box-1,
+  .exhibition .box-2,
+  .exhibition .box-3 {
+    margin: 10px;
+  }
+} ;

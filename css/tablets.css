@@ -1,0 +1,27 @@
+@media only screen and (min-width: 660px) {
+  /* Intro & explore */
+
+  .flex-wrap {
+    flex-direction: row;
+  }
+
+  .intro .box-1,
+  .intro .box-2 {
+    width: 50%;
+  }
+
+  .explore .box-1,
+  .explore .box-2 {
+    width: 50%;
+    height: auto;
+  }
+
+  /* Exhibition */
+
+  .exhibition .column-wrap {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  /* Events */
+}
