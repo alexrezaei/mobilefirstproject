@@ -23,5 +23,34 @@
     justify-content: space-around;
   }
 
-  /* Events */
+  /* Footer */
+
+  .footer-nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .icons-footer {
+    display: flex;
+    flex-direction: column;
+  }
+  /* ----explore----- */
+  .kids {
+    margin: 40px;
+  }
+
+  .kids .flex-wrap {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .kids .images {
+    flex-direction: row;
+  }
+
+  .kids .images .box-1,
+  .kids .images .box-2 {
+    margin: 40px;
+  }
 }

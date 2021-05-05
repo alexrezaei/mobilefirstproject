@@ -155,7 +155,7 @@
 /* Events */
 
 .events {
-  max-width: 797px;
+  max-width: 870px;
   margin: 0 auto;
 }
 
@@ -224,7 +224,7 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100%;
+  height: 283px;
   background-color: #fff5f5;
   margin-top: 40px;
   max-width: 1240px;
@@ -247,4 +247,64 @@
 .footer-nav .icons-footer {
   margin-top: 20px;
   font-size: 35px;
+}
+
+.icons-footer i {
+  margin: 10px;
+}
+
+/* ---- Explore ----- */
+
+.kids h1 {
+  text-align: center;
+  font-size: 48px;
+  margin-top: 117px;
+  color: #ef476f;
+}
+
+.kids .images {
+  display: flex;
+  flex-direction: column;
+  max-height: unset;
+  justify-content: center;
+  align-items: center;
+}
+.kids .images .box-1,
+.kids .images .box-2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.kids .images img {
+  width: 100%;
+  height: 100%;
+}
+
+.text h2 {
+  margin-right: 10px;
+  margin-top: 54px;
+  margin-left: 20px;
+  color: #ef476f;
+}
+
+.text p {
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  max-width: 599px;
+}
+
+.kids a {
+  margin: 20px;
+  display: inline-block;
+}
+
+.line {
+  border: 2px solid black;
+  width: 300px;
+  margin-top: 20px;
+  margin-left: 20px;
 }

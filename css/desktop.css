@@ -1,4 +1,5 @@
 @media only screen and (min-width: 1025px) {
+  /* Homepage */
   .exhibition .column-wrap {
     flex-direction: column;
   }
@@ -10,5 +11,20 @@
   .exhibition .box-2,
   .exhibition .box-3 {
     margin: 10px;
+  }
+
+  /* ----explore----- */
+
+  .kids {
+    height: 1011px;
+  }
+  .kids .flex-wrap {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .kids .images {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: unset;
   }
 } ;
