@@ -16,13 +16,15 @@
   /* ----explore----- */
 
   .kids {
-    height: 1011px;
+    height: 900px;
   }
-  .kids .flex-wrap {
+  .kids .flex-wrap,
+  .teachers .flex-wrap {
     flex-direction: row;
     justify-content: space-around;
   }
-  .kids .images {
+  .kids .images,
+  .teachers .images {
     flex-direction: column;
     justify-content: unset;
     align-items: unset;

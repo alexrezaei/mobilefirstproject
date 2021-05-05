@@ -35,22 +35,30 @@
     flex-direction: column;
   }
   /* ----explore----- */
-  .kids {
+  .kids,
+  .teachers {
     margin: 40px;
   }
 
-  .kids .flex-wrap {
+  .teachers {
+    margin-bottom: 80px;
+  }
+
+  .kids .flex-wrap,
+  .teachers .flex-wrap {
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
 
-  .kids .images {
+  .kids .images,
+  .teachers .images {
     flex-direction: row;
   }
 
   .kids .images .box-1,
-  .kids .images .box-2 {
+  .kids .images .box-2,
+  .teachers .images .box-1 {
     margin: 40px;
   }
 }
