@@ -29,4 +29,9 @@
     justify-content: unset;
     align-items: unset;
   }
+
+  .kids .flex-wrap,
+  .teachers .flex-wrap {
+    height: 800px;
+  }
 } ;

@@ -46,6 +46,14 @@
   margin-top: 30px;
 }
 
+.intro .box-2 {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.explore .box-2 {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+}
+
 .explore {
   margin-top: 30px;
 }
@@ -255,7 +263,7 @@
 
 /* ---- Explore ----- */
 
-.kids h1 {
+.explore-main-header {
   text-align: center;
   font-size: 48px;
   margin-top: 60px;
@@ -307,12 +315,12 @@
 .line {
   border: 2px solid black;
   width: 100%;
-  max-width: 300px;
+  max-width: 200px;
   margin-top: 20px;
   margin-left: 20px;
 }
 
-.teachers h2 {
+.header-teacher {
   font-size: 38px;
   text-align: center;
   color: #06d6a0;
@@ -324,7 +332,26 @@
   color: #06d6a0;
 }
 
+.kids {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.kids .flex-wrap {
+  height: 1600px;
+}
+
+.teachers .flex-wrap {
+  height: 1250px;
+}
+
 .teachers {
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.3);
+  border-radius: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .sharpen {
@@ -332,4 +359,99 @@
   image-rendering: -o-crisp-edges;
   image-rendering: -webkit-optimize-contrast;
   -ms-interpolation-mode: nearest-neighbor;
+}
+
+/* ----- Exhibition ----- */
+
+.exhibitions {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.mini-nav {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.mini-nav ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  max-width: 800px;
+}
+
+.mini-nav ul li {
+  margin-top: 20px;
+}
+.exhibition-box {
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 70px;
+}
+
+.info-box.black {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: #000000;
+  overflow: hidden;
+  margin-top: 80px;
+  box-shadow: 10px 10px 30px #ff4191;
+}
+.info-box.light {
+  width: 100%;
+  height: 100%;
+  min-height: 400px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-top: 80px;
+  box-shadow: 10px 10px 30px #1e34ff;
+}
+.exhibition-light-header {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 62px;
+  margin-left: 20px;
+}
+.exhibition-dark-header {
+  color: #000000;
+  font-size: 40px;
+  margin-top: 62px;
+  margin-left: 20px;
+}
+
+.info-box.black p {
+  color: #fff;
+  max-width: 1058px;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.info-box.light p {
+  color: #000000;
+  max-width: 1058px;
+  font-size: 16px;
+  margin-top: 24px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.exhibition-flex-wrap .box-1,
+.exhibition-flex-wrap .box-2 {
+  margin-top: 30px;
+  width: 300px;
+  height: 300px;
+  border-radius: 77px;
+  overflow: hidden;
+  perspective: 1px;
+}
+
+.exhibitions h1 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 50px;
 }

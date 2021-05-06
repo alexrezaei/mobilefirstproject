@@ -40,14 +40,17 @@
     margin: 40px;
   }
 
+  .kids {
+    height: 1100px;
+  }
+
   .teachers {
-    margin-bottom: 80px;
+    height: 1000px;
   }
 
   .kids .flex-wrap,
   .teachers .flex-wrap {
     flex-direction: column;
-    justify-content: center;
     align-items: center;
   }
 
@@ -61,4 +64,32 @@
   .teachers .images .box-1 {
     margin: 40px;
   }
+
+  /* ---- Exhibition ---- */
+  .exhibitions {
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
+  .info-box.black,
+  .info-box.light {
+    border-radius: 60px;
+  }
 }
+
+@media only screen and (min-width: 840px) {
+  .exhibition-flex-wrap {
+    flex-direction: row;
+  }
+  .exhibition-flex-wrap .box-1,
+  .exhibition-flex-wrap .box-2 {
+    margin: 81px 20px 40px 20px;
+  }
+  .mini-nav ul {
+    flex-direction: row;
+  }
+  .mini-nav ul li {
+    flex-direction: row;
+    margin: 10px;
+  }
+} ;
