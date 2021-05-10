@@ -34,4 +34,20 @@
   .teachers .flex-wrap {
     height: 800px;
   }
+
+  /* ---- events-page */
+
+  .event-page .event-text h3 {
+    margin-top: 20px;
+  }
+
+  .visit .card-wrap {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .visit .card-1,
+  .visit .card-2,
+  .visit .card-3 {
+    width: 30%;
+  }
 } ;
