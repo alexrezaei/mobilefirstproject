@@ -1,5 +1,5 @@
 @media only screen and (max-width: 840px) {
-  label {
+  .nav label {
     display: block;
     float: right;
     position: relative;

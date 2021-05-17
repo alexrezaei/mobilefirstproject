@@ -27,7 +27,7 @@
   line-height: 70px;
 }
 
-label {
+.nav label {
   margin: 0 50px 0 0;
   font-size: 30px;
   line-height: 70px;
@@ -523,7 +523,7 @@ label {
 }
 
 .event-date {
-  font-size: 30px;
+  font-size: 3rem;
   font-family: "Poppins", sans-serif;
   margin-left: 15px;
   display: inline-block;
@@ -581,4 +581,40 @@ label {
 .visit h3 {
   text-align: center;
   margin: 80px 0;
+}
+
+/* ---- Contact us  ---- */
+
+.contact {
+  margin: 0 40px;
+}
+
+.contact .form-wrap {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact .form-wrap label {
+  margin: 10px 0;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+.contact .form-wrap input {
+  height: 40px;
+  border: none;
+  background-color: #fff5f5;
+  font-size: 2rem;
+}
+
+.contact .form-wrap textarea {
+  width: 100%;
+  background-color: #fff5f5;
+  border: none;
+  font-size: 2rem;
+}
+
+.contact .form-wrap .btn-primary {
+  margin-top: 20px;
+  text-align: center;
 }
