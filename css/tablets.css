@@ -72,8 +72,7 @@
 
   /* ---- Exhibition ---- */
   .exhibitions {
-    margin-left: 40px;
-    margin-right: 40px;
+    margin: 0 40px 0 40px;
   }
 
   .info-box.black,
